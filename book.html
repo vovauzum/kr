@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Книги</title>
+    <link rel="shortcut icon" href="styles/images/B.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <div id="wrap">
+        <header>
+            <div class="title">Книги</div>
+        </header>
+    </div>
+    <div class="categ">
+        <dl>
+            <dt>Бібліотека:</dt>
+            <dd class="left_categ">
+                <a href="book.html">- Книги</a>
+            </dd>
+            <dd class="left_categ">
+                <a href="reader.html">- Читачі</a>
+            </dd>
+            <dd class="left_categ">
+                <a href="ticket.html">- Читацькі квитки</a>
+            </dd>
+            <dd class="left_categ">
+                <a href="librarian.html">- Бібліотекарі</a>
+            </dd>
+            <dd class="left_categ">
+                <a href="card.html">- Видача книги</a>
+            </dd>
+            <dd class="back_to_main">
+                <a class="back_to_main" href="main.html">На головну</a>
+            </dd>
+        </dl>
+    </div>
+    <div class="content">
+        <table>
+            <tr>
+                <th> </th>
+                <th>Назва</th>
+                <th>Автор</th>
+                <th>Видавець</th>
+                <th>Жанр</th>
+                <th>Шифр</th>
+                <th>К-сть сторінок</th>
+                <th>Рік видавництва</th>
+            </tr>
+            <tr>
+                <td><input type="radio"></td>
+                <td>Php навчання на прикладах</td>
+                <td>Кухарчик А. А.</td>
+                <td>Нове знання</td>
+                <td>Програмування</td>
+                <td>удк 004.92</td>
+                <td>241</td>
+                <td>2004</td>
+            </tr>
+        </table>
+    </div>
+    <div class="buttons">
+        <form>
+            <div>
+                <button class="b_top"><a href="n_book.html">Добавити</a></button>
+                <button class="b_top"><a href="r_book.html">Редагувати</a></button>
+                <button class="b_top">Видалити</button>
+            </div>
+            <div>
+                <select class="b_center">
+                    <option>Назва</option>
+                    <option>Автор</option>
+                    <option>Видавець</option>
+                    <option>Жанр</option>
+                    <option>Шифр</option>
+                    <option>К-сть сторінок</option>
+                    <option>Рік видавництва</option>
+                  </select>
+                <input class="b_center" type="text" value="Всі">
+            </div>
+            <div>
+                <button class="b_bottom">Фільтр</button>
+                <button class="b_bottom">Очистити</button>
+
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

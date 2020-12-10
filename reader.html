@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Читачі</title>
+    <link rel="shortcut icon" href="styles/images/B.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <div id="wrap">
+        <header>
+            <div class="title">Читачі</div>
+        </header>
+    </div>
+    <div class="categ">
+        <dl>
+            <dt>Бібліотека:</dt>
+            <dd class="left_categ">
+                <a href="book.html">- Книги</a>
+            </dd>
+            <dd class="left_categ">
+                <a href="reader.html">- Читачі</a>
+            </dd>
+            <dd class="left_categ">
+                <a href="ticket.html">- Читацькі квитки</a>
+            </dd>
+            <dd class="left_categ">
+                <a href="librarian.html">- Бібліотекарі</a>
+            </dd>
+            <dd class="left_categ">
+                <a href="card.html">- Видача книги</a>
+            </dd>
+            <dd class="back_to_main">
+                <a class="back_to_main" href="main.html">На головну</a>
+            </dd>
+        </dl>
+    </div>
+    <div class="content">
+        <table>
+            <tr>
+                <th> </th>
+                <th>Прізвище</th>
+                <th>Ім'я</th>
+                <th>По батькові</th>
+                <th>Паспорт</th>
+                <th>Адреса</th>
+                <th>Телефон</th>
+            </tr>
+            <tr>
+                <td><input type="radio"></td>
+                <td>Торконяк</td>
+                <td>Володимир</td>
+                <td>Михайлович</td>
+                <td>11111111</td>
+                <td>вул. Княгинин 7</td>
+                <td>2846738</td>
+            </tr>
+            <tr>
+                <td><input type="radio"></td>
+                <td>Шинкарчук</td>
+                <td>Ігор</td>
+                <td>Іванович</td>
+                <td>22222222</td>
+                <td>вул. Шевченка 3</td>
+                <td>6546890</td>
+            </tr>
+        </table>
+    </div>
+    <div class="buttons">
+        <form>
+            <div>
+                <button class="b_top"><a href="n_reader.html">Добавити</a></button>
+                <button class="b_top"><a href="r_reader.html">Редагувати</a></button>
+                <button class="b_top">Видалити</button>
+            </div>
+            <div>
+                <select class="b_center">
+                    <option>Прізвище</option>
+                    <option>Ім'я</option>
+                    <option>По батькові</option>
+                    <option>Паспорт</option>
+                    <option>Адреса</option>
+                    <option>Телефон</option>
+                  </select>
+                <input class="b_center" type="text" value="Всі">
+            </div>
+            <div>
+                <button class="b_bottom">Фільтр</button>
+                <button class="b_bottom">Очистити</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

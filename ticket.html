@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Читацькі квитки</title>
+    <link rel="shortcut icon" href="styles/images/B.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <div id="wrap">
+        <header>
+            <div class="title">Читацькі квитки</div>
+        </header>
+    </div>
+    <div class="categ">
+        <dl>
+            <dt>Бібліотека:</dt>
+            <dd class="left_categ">
+                <a href="book.html">- Книги</a>
+            </dd>
+            <dd class="left_categ">
+                <a href="reader.html">- Читачі</a>
+            </dd>
+            <dd class="left_categ">
+                <a href="ticket.html">- Читацькі квитки</a>
+            </dd>
+            <dd class="left_categ">
+                <a href="librarian.html">- Бібліотекарі</a>
+            </dd>
+            <dd class="left_categ">
+                <a href="card.html">- Видача книги</a>
+            </dd>
+            <dd class="back_to_main">
+                <a class="back_to_main" href="main.html">На головну</a>
+            </dd>
+        </dl>
+    </div>
+    <div class="content">
+        <table>
+            <tr>
+                <th> </th>
+                <th>Читацький квиток</th>
+                <th>Читач</th>
+                <th>Дата видачі</th>
+                <th>Придатний до</th>
+            </tr>
+            <tr>
+                <td><input type="radio"></td>
+                <td>7</td>
+                <td>Торконяк</td>
+                <td>2020-01-01</td>
+                <td>2021-01-01</td>
+            </tr>
+            <tr>
+                <td><input type="radio"></td>
+                <td>8</td>
+                <td>Шинкарчук</td>
+                <td>2020-01-11</td>
+                <td>2021-01-11</td>
+            </tr>
+        </table>
+    </div>
+    <div class="buttons">
+        <form>
+            <div>
+                <button class="b_top"><a href="n_ticket.html">Добавити</a></button>
+                <button class="b_top"><a href="r_ticket.html">Редагувати</a></button>
+                <button class="b_top">Видалити</button>
+            </div>
+            <div>
+                <select class="b_center">
+                    <option>Читацький квиток</option>
+                    <option>Читач</option>
+                    <option>Дата видачі</option>
+                    <option>Придатний до</option>
+                  </select>
+                <input class="b_center" type="text" value="Всі">
+            </div>
+            <div>
+                <button class="b_bottom">Фільтр</button>
+                <button class="b_bottom">Очистити</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

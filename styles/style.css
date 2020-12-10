@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    background: #D8E3AB;
+    height: 100px;
+    border-radius: 20%;
+    border-color: #000000;
+}
+
+.back_to_main {
+    padding-top: 50px;
+    color: #000000;
+}
+
+table {
+    width: 100%;
+    border-top: 2px solid black;
+}
+
+td {
+    padding: 10px;
+    background-color: #D8E3AB;
+    border: 1px solid black;
+}
+
+th {
+    font-weight: lighter;
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid #000000;
+}
+
+.categ {
+    width: 20%;
+    border-right: 1px solid #231F20;
+    padding-left: 10px;
+    font-size: 30px;
+    height: 100%;
+    display: flex;
+    background-color: #D8E3AB;
+    border: 2px solid #000000;
+    position: absolute;
+}
+
+.content {
+    border: 1px solid #000000;
+    background-color: #D8E3AB;
+    display: flex;
+    top: 222px;
+    width: 80%;
+    left: 20%;
+    position: absolute;
+}
+
+.buttons {
+    width: 80%;
+    border-top: 2px solid #000000;
+    padding: 10px;
+    background-color: #D8E3AB;
+    top: 100px;
+    left: 20%;
+    position: absolute;
+    display: flex;
+}
+
+.r_buttons {
+    width: 80%;
+    border-bottom: 2px solid #000000;
+    padding: 10px;
+    background-color: #D8E3AB;
+    top: 140px;
+    left: 20%;
+    position: absolute;
+    display: flex;
+}
+
+.title {
+    background-color: #D8E3AB;
+    font-size: 50px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.left_categ {
+    padding-left: 30px;
+    color: #000000;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.alter {
+    border-top: 2px solid #000000;
+    width: 80%;
+    padding: 10px;
+    background-color: #D8E3AB;
+    top: 100px;
+    left: 20%;
+    position: absolute;
+    display: flex;
+}
+
+body {
+    background: url(images/fon.jpg) repeat;
+    -moz-background-size: 100%;
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+}
+
+.b_bottom,
+.b_top {
+    margin-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.b_center {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #800000;
+    /* Цвет ссылки при наведении на нее курсора мыши */
+    text-decoration: underline;
+    /* Добавляем подчеркивание */
+}
+
+.r_form {
+    width: 170px;
+}
+
+.r_y {
+    width: 70px;
+    margin-top: 20px;
+}
+
+.r_n {
+    width: 70px;
+    margin-top: 20px;
+    margin-left: 16px;
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Бібліотекарі</title>
+    <link rel="shortcut icon" href="styles/images/B.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+    <div id="wrap">
+        <header>
+            <div class="title">Бібліотекарі</div>
+        </header>
+    </div>
+    <div class="categ">
+        <dl>
+            <dt>Бібліотека:</dt>
+            <dd class="left_categ">
+                <a href="book.html">- Книги</a>
+            </dd>
+            <dd class="left_categ">
+                <a href="reader.html">- Читачі</a>
+            </dd>
+            <dd class="left_categ">
+                <a href="ticket.html">- Читацькі квитки</a>
+            </dd>
+            <dd class="left_categ">
+                <a href="librarian.html">- Бібліотекарі</a>
+            </dd>
+            <dd class="left_categ">
+                <a href="card.html">- Видача книги</a>
+            </dd>
+            <dd class="back_to_main">
+                <a class="back_to_main" href="main.html">На головну</a>
+            </dd>
+        </dl>
+    </div>
+    <div class="content">
+        <table>
+            <tr>
+                <th> </th>
+                <th>Прізвище</th>
+                <th>Ім'я</th>
+                <th>По батькові</th>
+                <th>Адреса</th>
+                <th>Телефон</th>
+                <th>Паспорт</th>
+                <th>Дата прийому на роботу</th>
+            </tr>
+            <tr>
+                <td><input type="radio"></td>
+                <td>Соботник</td>
+                <td>Едуард</td>
+                <td>Любомирович</td>
+                <td>вул. Могили 10</td>
+                <td>345763</td>
+                <td>4444444</td>
+                <td>1995-04-10</td>
+            </tr>
+            <tr>
+                <td><input type="radio"></td>
+                <td>Катамай</td>
+                <td>Ігор-Михайло</td>
+                <td>Богданович</td>
+                <td>вул. Стрільців 2</td>
+                <td>785688</td>
+                <td>5555555</td>
+                <td>1996-04-20</td>
+            </tr>
+        </table>
+    </div>
+    <div class="buttons">
+        <form>
+            <div>
+                <button class="b_top"><a href="n_librarian.html">Добавити</a></button>
+                <button class="b_top"><a href="r_librarian.html">Редагувати</a></button>
+                <button class="b_top">Видалити</button>
+            </div>
+            <div>
+                <select class="b_center">
+                    <option>Прізвище</option>
+                    <option>Ім'я</option>
+                    <option>По батькові</option>
+                    <option>Адреса</option>
+                    <option>Телефон</option>
+                    <option>Паспорт</option>
+                    <option>Дата прийому на роботу</option>
+                  </select>
+                <input class="b_center" type="text" value="Всі">
+            </div>
+            <div>
+                <button class="b_bottom">Фільтр</button>
+                <button class="b_bottom">Очистити</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
